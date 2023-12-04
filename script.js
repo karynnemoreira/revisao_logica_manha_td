@@ -1,102 +1,102 @@
-//console.log é uma função nativa do Js que exibe uma mensagem no console do navegador. 
-//Entrada - Processamento - Saída
+// //console.log é uma função nativa do Js que exibe uma mensagem no console do navegador. 
+// //Entrada - Processamento - Saída
 
-console.log("Uhull Sextou!!")
+// console.log("Uhull Sextou!!")
 
-//Variáveis: VAR, LET e CONST
-//VAR ela tem escopo global (pode ser chamada em qualquer lugar) por isso, ela não é mais utilizada, pq causa bastante conflitos e bugs. NÃO É MAIS UTILIZADA.
+// //Variáveis: VAR, LET e CONST
+// //VAR ela tem escopo global (pode ser chamada em qualquer lugar) por isso, ela não é mais utilizada, pq causa bastante conflitos e bugs. NÃO É MAIS UTILIZADA.
 
-var cor = "azul"
-cor = "vermelho"
-console.log(cor)
+// var cor = "azul"
+// cor = "vermelho"
+// console.log(cor)
 
-//LET ela tem escopo local, não causa tantos danos e bugs e é a mais utilizada entre os programadores
+// //LET ela tem escopo local, não causa tantos danos e bugs e é a mais utilizada entre os programadores
 
-let animal = "girafa"
-animal = "pato"
-console.log(animal)
+// let animal = "girafa"
+// animal = "pato"
+// console.log(animal)
 
-//CONST é uma variável constante ela não muda, NÃO CONSIGO REDEFINIR. 
+// //CONST é uma variável constante ela não muda, NÃO CONSIGO REDEFINIR. 
 
-const fruta = "laranja"
-console.log(fruta)
-//fruta = "uva"
+// const fruta = "laranja"
+// console.log(fruta)
+// //fruta = "uva"
 
-//Deu erro pq uma variável constante não pode ser alterada.
+// //Deu erro pq uma variável constante não pode ser alterada.
 
-//NOMES DAS VARIÁVEIS:  não podem ser começadas com números ou símbolos, execeto _ e $ 
+// //NOMES DAS VARIÁVEIS:  não podem ser começadas com números ou símbolos, execeto _ e $ 
 
-let carro = "uninho"
-let _carro = "pálio"
-let $carro = "siena"
-let carroNovo = "strada" 
+// let carro = "uninho"
+// let _carro = "pálio"
+// let $carro = "siena"
+// let carroNovo = "strada" 
 
-//TIPOS DE VARIÁVEIS
+// //TIPOS DE VARIÁVEIS
 
-//number
-let ano = 2023  //tipo numérico
-console.log(typeof ano) //informa o tipo da variável
+// //number
+// let ano = 2023  //tipo numérico
+// console.log(typeof ano) //informa o tipo da variável
 
-//string
-let mes = "dezembro" //ou '' ou ``quer dizer que é string (um valor textual)
+// //string
+// let mes = "dezembro" //ou '' ou ``quer dizer que é string (um valor textual)
 
-let dia = 'sexta' //string
+// let dia = 'sexta' //string
 
-let frase = `Natal está chegando` //string
+// let frase = `Natal está chegando` //string
 
-//boolean
-let feliz = true
+// //boolean
+// let feliz = true
 
-let triste = false
+// let triste = false
 
-// Vamos ver com calma com o tempo 
+// // Vamos ver com calma com o tempo 
 
-let teste = null  //valor nulo
-let teste2 = undefined //valor indefinido  
-let teste3 = NaN //não é um valor numérico
+// let teste = null  //valor nulo
+// let teste2 = undefined //valor indefinido  
+// let teste3 = NaN //não é um valor numérico
 
-//TemplateString, também é uma string, porém, ela é mais robusta, elegante. Conseguimos guardar mais informações ou chamar de uma outra forma. E ela é chamada com crase ` `  
-// forma de chamar o templateString  `${}`
-
-
-let fraseGrande = `Hoje é ${dia} do mês de ${mes} o ${frase}` 
-
-console.log(fraseGrande)
-
-console.log( `Hoje iniciou o mês de ${mes}`)
+// //TemplateString, também é uma string, porém, ela é mais robusta, elegante. Conseguimos guardar mais informações ou chamar de uma outra forma. E ela é chamada com crase ` `  
+// // forma de chamar o templateString  `${}`
 
 
-let exemploComTemplateString = "calor"
-console.log(`Hoje está muito ${exemploComTemplateString}`)
+// let fraseGrande = `Hoje é ${dia} do mês de ${mes} o ${frase}` 
+
+// console.log(fraseGrande)
+
+// console.log( `Hoje iniciou o mês de ${mes}`)
 
 
-//CONDIÇÕES 
-//IF = SE
-//ELSE = SENÃO
-//ELSE IF = SENÃO SE (usado para nos dar mais opções de escolha)
-
-let a = 3 > 2 //true
-
-if(a == false){ // a =true ; true é igual a false? Não! Por isso caiu no else
-console.log("Essa condição é verdadeira")
-} else {
-    console.log("Essa informação não bate")
-}
+// let exemploComTemplateString = "calor"
+// console.log(`Hoje está muito ${exemploComTemplateString}`)
 
 
-//Exemplo com Else If
+// //CONDIÇÕES 
+// //IF = SE
+// //ELSE = SENÃO
+// //ELSE IF = SENÃO SE (usado para nos dar mais opções de escolha)
 
-let estiloMusical = "eletrônica" //imagine o usuário digitando um estilo musical 
+// let a = 3 > 2 //true
 
-if(estiloMusical === "rock" ){
-console.log("O estilo musical é o Rock")
-} else if (estiloMusical === "sertanejo"){
-console.log ("O estilo musical é sertanejo")
-} else if(estiloMusical === "funk"){
-console.log ("O estilo musical é funk")
-} else {
-    console.log("Estilo musical não encontrado")
-}
+// if(a == false){ // a =true ; true é igual a false? Não! Por isso caiu no else
+// console.log("Essa condição é verdadeira")
+// } else {
+//     console.log("Essa informação não bate")
+// }
+
+
+// //Exemplo com Else If
+
+// let estiloMusical = "eletrônica" //imagine o usuário digitando um estilo musical 
+
+// if(estiloMusical === "rock" ){
+// console.log("O estilo musical é o Rock")
+// } else if (estiloMusical === "sertanejo"){
+// console.log ("O estilo musical é sertanejo")
+// } else if(estiloMusical === "funk"){
+// console.log ("O estilo musical é funk")
+// } else {
+//     console.log("Estilo musical não encontrado")
+// }
 
 
 
@@ -109,4 +109,142 @@ console.log ("O estilo musical é funk")
 // || (TRUE || FALSE)  //TRUE
 // || (TRUE || TRUE) //TRUE
 // || (FALSE || FALSE)
-console.log (false || false) //false
+
+
+
+// //&& COMPARAR SE AS DUAS INFORMAÇÕES SÃO VERDADEIRAS
+
+// let a = true
+// let b = false
+
+
+// if(a == true && b == false) {
+// console.log("Hoje é segunda feira")
+// }else{
+// console.log("Hoje não é segunda feira")
+// }
+
+
+// let animal1 = "cachorro"
+// let animal2 = "papagaio"
+
+// if(animal1 == "cachorro" && animal2 == "gato"){
+// console.log("As duas informações são corretas")
+// }else{
+//     console.log("Informações não batem")
+// }
+
+// // true e && true 
+// let teste1 = "menos -"
+// let teste2 = "mais +" 
+
+
+// if(teste1 == "menos -" && teste2 == "mais ++"){
+//     console.log("As duas informações são verdadeiras")
+// }else{
+//     console.log("Essas informações não estão corretas")
+// }
+
+
+
+// //|| or / Compara de um OU o outro são verdadeiros
+
+
+// let c = 10 > 2 // 10 é maior > que 2 ? sim! true, é verdade.
+// let d = 50 >= 50 // 50 é maior > ou igual = a 50 ? Maior não é, informação falsa. 50 é igual a 50, informação verdadeira, true. 
+
+// if(c == false || d == true ){
+// console.log("Essa informação ta certinha")
+// }
+
+
+// let fruta1 = "morango"
+// let fruta2 = "abacaxi" 
+
+// if(fruta1 === "uva" || fruta2 === "abacaxi"){
+// console.log(`Adorooo essas frutas ${fruta1} e ${fruta2}`)
+// } else{
+//     console.log("Você é muito fresco") 
+// }
+
+
+// // || OU uma OU a outra informação precisa ser verdadeira
+// // && E as duas informações PRECISAM SER VERDADEIRAS
+
+
+// let carro1 = "gol"
+// let carro2 = "celta"
+
+// if(carro1 === "gol" || carro2 === "strada"){
+// console.log("Um ou o outro estão certos")
+// } else{
+//     console.log("Nenhum dos dois estão certos")
+// }
+
+
+// //  ! not : ele inverte um valor que é dado a ele
+// let segunda = false
+// console.log(!segunda)
+
+
+
+//Exemplo 
+
+let cantora = "Mariah Carey"
+let mes = "Dezembro"
+let cantor = "Roberto Carlos"
+let natal = `Ano novo em Copacabana com participação especial da ${cantora} e ${cantor}`
+
+if (mes === "Janeiro" || cantora === "Mariah Carey" && cantor === "Roberto Carolos") {
+    console.log(`Natal está chegando, vamos descongelar a ${cantora} e partiu cruzeiro do ${cantor}`)
+} else {
+    console.log("Estamos longe do natal")
+}
+
+console.log(natal)
+
+
+//OPERADORES DE ATRIBUIÇÃO
+// = ATRIBUIÇÃO DE TIPO
+// + ATRIBUIÇÃO DE SOMA  +=
+// - ATRIBUIÇÃO DE SUBTRAÇÃO -=
+// * ATRIBUIÇÃO DE MULTIPLACAÇÃO *=
+// / ATRIBUIÇÃO DE DIVISÃO /= 
+//  ++ ATRIBUI UM INCREMENTO (ADICIONA 1 VALOR)
+// -- ATRIBUI UM DECREMENTO (RETIRA 1 VALOR)
+// % ATRIBUIÇÃO DE RESTO  %= (VAMOS VER COM O TEMPO)
+
+let x = 1
+let y = 2
+
+//SOMAR
+//console.log(x=x+1) //Forma mais completa de somar
+//console.log(x+=y) //Forma mais simplicada de somar 
+
+//SUBTRAIR
+//console.log(x=x-y) //Forma mais completa de subtrair
+//console.log(x-=y) //Forma mais simplificada de subtrair
+
+//MULTIPLICAÇÃO
+//console.log(x=x*y)  //Forma mais completa de multiplicar
+//console.log(x*=y) //Forma mais simplificada de multiplicar
+
+
+//DIVISÃO 
+//console.log(x=x/y) //Forma mais completa de dividir
+//console.log(x/=y) //Forma mais simplificada de dividir
+
+//incremento é a mesmo coisa que x = x+1  (x++)
+// x = 1 + 1 = 2
+// x = 2 + 1 = 3
+// x = 3 + 1 = 4
+// x = 4 + 1 = 5
+
+
+//decremente é a mesma coisa que x = x - 1 (x--)
+// x = 1 - 1 = 0
+// x = 0 - 1 = -1
+// x = -1 - 1 = -2
+// x = -2 - 1 = -3 
+// x = -3 - 1 = -4
+// x = -4 - 1 = -5 
