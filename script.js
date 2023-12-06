@@ -147,7 +147,7 @@
 
 
 
-// //|| or / Compara de um OU o outro são verdadeiros
+// //|| or / Compara se um OU o outro são verdadeiros
 
 
 // let c = 10 > 2 // 10 é maior > que 2 ? sim! true, é verdade.
@@ -190,32 +190,32 @@
 
 //Exemplo 
 
-let cantora = "Mariah Carey"
-let mes = "Dezembro"
-let cantor = "Roberto Carlos"
-let natal = `Ano novo em Copacabana com participação especial da ${cantora} e ${cantor}`
+// let cantora = "Mariah Carey"
+// let mes = "Dezembro"
+// let cantor = "Roberto Carlos"
+// let natal = `Ano novo em Copacabana com participação especial da ${cantora} e ${cantor}`
 
-if (mes === "Janeiro" || cantora === "Mariah Carey" && cantor === "Roberto Carolos") {
-    console.log(`Natal está chegando, vamos descongelar a ${cantora} e partiu cruzeiro do ${cantor}`)
-} else {
-    console.log("Estamos longe do natal")
-}
+// if (mes === "Janeiro" || cantora === "Mariah Carey" && cantor === "Roberto Carlos") {
+//     console.log(`Natal está chegando, vamos descongelar a ${cantora} e partiu cruzeiro do ${cantor}`)
+// } else {
+//     console.log("Estamos longe do natal")
+// }
 
-console.log(natal)
+// console.log(natal)
 
 
 //OPERADORES DE ATRIBUIÇÃO
 // = ATRIBUIÇÃO DE TIPO
 // + ATRIBUIÇÃO DE SOMA  +=
 // - ATRIBUIÇÃO DE SUBTRAÇÃO -=
-// * ATRIBUIÇÃO DE MULTIPLACAÇÃO *=
+// * ATRIBUIÇÃO DE MULTIPLICAÇÃO *=
 // / ATRIBUIÇÃO DE DIVISÃO /= 
 //  ++ ATRIBUI UM INCREMENTO (ADICIONA 1 VALOR)
 // -- ATRIBUI UM DECREMENTO (RETIRA 1 VALOR)
 // % ATRIBUIÇÃO DE RESTO  %= (VAMOS VER COM O TEMPO)
 
-let x = 1
-let y = 2
+// let x = 1
+// let y = 2
 
 //SOMAR
 //console.log(x=x+1) //Forma mais completa de somar
@@ -248,3 +248,121 @@ let y = 2
 // x = -2 - 1 = -3 
 // x = -3 - 1 = -4
 // x = -4 - 1 = -5 
+
+//RESUMÃO SOBRE A FORMA SIMPLIFICADA E COMPLETA
+
+//let precoTotal = 5
+
+//SOMA
+//console.log(precoTotal += 15) //simplificada
+//console.log(precoTotal = precoTotal + 15) //completa
+
+//SUBTRAÇÃO
+//console.log(precoTotal -= 15) //simplificada
+//console.log(precoTotal = precoTotal - 15) //completa
+
+//MULTIPLICAÇÃO
+//console.log(precoTotal *= 15) //simplificada
+//console.log(precoTotal = precoTotal * 15) //completa
+
+//DIVISÃO
+//console.log(precoTotal /= 15) //simplificada
+//console.log(precoTotal = precoTotal / 15) //completa
+
+//-------------------------LOOPS-------------
+
+//LOOPS: SÃO LAÇOS DE REPETIÇÕES, EXECUTAR UMA TAREFA DIVERSAS VEZES. 
+
+//IMAGINE UM CONTADOR FEITO DE FORMA MANUAL, CONTANDO DE 1 ATÉ 10
+
+//let contador = 0
+
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+
+
+//while (enquato) Executa o loop enquanto a condição for verdadeira.  
+
+// while(condição){
+//     terefa
+//     iteração
+// }
+
+//Exemplo 1 - números ímpares
+
+// let _contador = 1; //guardando o valor 0
+
+// while(_contador < 50){ //enquanto contador for menor que 50, execute isso.
+// _contador += 2 //o valor atual do _contador + 2
+//  console.log(_contador)
+// }
+
+//valor inicial é 1, 1 + 2 = 3
+//valor atual é 3, 3 + 2 = 5
+// valor atual é 5, 5 + 2 = 7 ... 
+
+
+//EXEMPLO 2, NÚMEROS PARES
+
+// let contandoPares = 0
+
+// while(contandoPares < 50){
+// contandoPares +=2 
+// console.log(contandoPares)
+// }
+
+
+//EXEMPLO 3 
+//DEFININDO AUMENTO DE SALÁRIO
+
+// let salario = 1000
+
+// while(salario < 3000){
+// salario += 100
+// console.log(`O salário ainda é R$ ${salario}`)
+// }
+
+//EXEMPLO 4 
+
+let numero = 3 
+while( numero <= 3 ){
+//numero = numero *= 3
+numero *= 3
+console.log(numero)
+}
+
+
+//EXEMPLO 5
+
+let numero2 = 10
+
+while(numero2 < 20 && numero2 > 0 ){
+numero2 -=2 
+console.log(numero2)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----console.log 
+// let teste = 6 
+// console.log(teste *= 6)
+// console.log(teste *= 6)
+// console.logf(teste = teste * 6)
