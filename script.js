@@ -289,7 +289,7 @@
 // console.log(contador = contador + 1)
 
 
-//while (enquato) Executa o loop enquanto a condição for verdadeira.  
+//while (enquanto) Executa o loop enquanto a condição for verdadeira.  
 
 // while(condição){
 //     terefa
@@ -332,12 +332,12 @@
 
 //EXEMPLO 4 
 
-let numero = 3 
-while( numero <= 3 ){
-//numero = numero *= 3
-numero *= 3
-console.log(numero)
-}
+// let numero = 3 
+// while( numero <= 3 ){
+// //numero = numero *= 3
+// numero *= 3
+// console.log(numero)
+// }
 
 
 //EXEMPLO 5
@@ -346,17 +346,53 @@ let numero2 = 10
 
 while(numero2 < 20 && numero2 > 0 ){
 numero2 -=2 
-console.log(numero2)
+//console.log(numero2)
+}
+
+//For? Executa o loop enquanto a condição for verdadeira, porém, você coloca as variáveis dentro da estrutura do loop for. 
+
+//estrutura
+// for(variavel contadora; condição; iteração){
+//     tarefa
+// }
+
+
+for(let cachorro = 1; cachorro <= 10; cachorro ++){
+//console.log(cachorro)
+}
+
+
+for(let gato = 0; gato <= 10; gato += 1){
+   // console.log(gato)
+    }
+    
+
+    for (let zebra = 0; zebra <=100; zebra += 10){
+//console.log(zebra)
+    }
+
+    //Jeito mais completo variavel = variavel + 20
+    for (let girafa = 1; girafa <=100; girafa = girafa +20){
+        //console.log(girafa)
+            }
+        
+
+    //Com while
+
+let pato = 0 
+
+while(pato <= 10){
+    pato++
+//console.log(pato)
 }
 
 
 
+//CUIDADOOOO, ESSE CÓDIGO SERÁ EXECUTADO ETERNAMENTE
 
-
-
-
-
-
+    for(let i = 1; i < 10; i -= 20){
+console.log(i)
+    }
 
 
 
